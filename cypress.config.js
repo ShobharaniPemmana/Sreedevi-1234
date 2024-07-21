@@ -9,7 +9,7 @@ module.exports = defineConfig({
     },
     "env": { 
       "allureResultsPath": "allure-results",
-        allureReuseAfterSpec: true
+       allureReuseAfterSpec: true
 
     },
   },
