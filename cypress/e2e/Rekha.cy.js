@@ -6,7 +6,7 @@ describe('verify the add title', () => {
         cy.get('button[type="submit"]').click()
         cy.contains('My Actions').should("be.visible")
         cy.contains('Admin').click()
-        cy.contains('Job ').click()
+        cy. contains('Job ').click()
         cy.contains('Job Titles').click()
         cy.get('button[type="button"]').click({multiple:true})
         cy.get('input[placeholder="Search"]').type('QA Tester')
