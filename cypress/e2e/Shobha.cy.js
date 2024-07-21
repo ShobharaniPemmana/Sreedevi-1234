@@ -14,7 +14,7 @@ describe("verify the job title functionality",()=>{
         cy.contains(" Save ").click()
         // cy.contains('Successfully Saved').should("be.visible")
 
-        cy.contains('Successfully Saved').should("be.visible")
+        cy.contains('Successfully Saved'). should("be.visible")
 
 
 
